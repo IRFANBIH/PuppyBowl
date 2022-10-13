@@ -11,7 +11,7 @@ body {
   flex-grow: 1;
   max-height: 10%;
   min-height: 40px;
-  background-color: #222222;
+  background-color: #6c0707;
   color: white;
   display: flex;
   align-items: center;
@@ -19,4 +19,5 @@ body {
 
 #navbar div {
   padding: 5px;
+  justify-content: end;
 }

@@ -3,7 +3,8 @@ import {Navbar} from './';
 
 const Main = () => {
   return (
-    <div id="main">
+    <div id="navbar">
+      <h2>The Puppy Bowl </h2>
       <Navbar />
     
   </div>

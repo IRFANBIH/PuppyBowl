@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {Navbar} from './';
-import {Components} from './';
+import {Dogs} from './';
 
 const Main = () => {
   const [dogData, setDogData] = useState([]);
@@ -18,7 +18,9 @@ const Main = () => {
       <div id="navbar">
         <h2>The Puppy Bowl </h2>
         <Navbar />
-        {/* <Components const getDogs = {props} /> */}
+      </div>
+      <div id="dogdata">
+        <Dogs dogData = {dogData}/>
       </div>
     </div>
   );

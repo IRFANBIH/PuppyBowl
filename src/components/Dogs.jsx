@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Components = (props) => {
+const Dogs = (props) => {
   const myDogs = props.dogData
     return (
-      <div className ='box'>{}
+      <div className ='box'>
       {myDogs.map((dogs) => {
         return(
-          <div key = {`player-${puppy.id}`} className='dog'>
+          <div key = {`player-${dogs.id}`} className='dog'>
             <div>{dogs.name}</div>
             <div>{dogs.breed}</div>
             <div>{dogs.status}</div>
@@ -18,4 +18,4 @@ const Components = (props) => {
     );
   };
 
-export default Components;
+export default Dogs;

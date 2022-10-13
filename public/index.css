@@ -37,12 +37,20 @@ body {
   padding: 5px;
 }
 
-.box {
+.dog {
   padding: 5px;
   margin-top:5%;
   margin-left:2%;
   width:200px;
   height:400px;
   background-color:rgb(217, 217, 217);
-  justify-content:center;
+  flex-direction: row;
+  align-items: center;
 }
+
+.box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+

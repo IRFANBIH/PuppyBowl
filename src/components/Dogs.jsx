@@ -8,7 +8,8 @@ const Dogs = (props) => {
         return(
           <div key = {`player-${dogs.id}`} className='dog'>
             <div>{dogs.name}</div>
-            <div>{dogs.breed}</div>
+            <div id="breeds">{dogs.breed}</div>
+            <div><img src={dogs.imageUrl} id="images"></img></div>
             <div>{dogs.status}</div>
           </div>
         )

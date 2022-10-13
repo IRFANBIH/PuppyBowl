@@ -21,3 +21,28 @@ body {
   padding: 5px;
   justify-content: end;
 }
+
+#components {
+  font-family: 'Poller One', Arial, sans-serif;
+  flex-grow: 1;
+  max-height: 80%;
+  min-height: 500px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+#components div {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+#dog {
+  padding: 5px;
+  margin-top:5%;
+  margin-left:2%;
+  width:200px;
+  height:400px;
+  background-color:rgb(217, 217, 217);
+  justify-content:center;
+}

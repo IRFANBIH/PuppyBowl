@@ -22,6 +22,16 @@ h2{
   align-items: center;
 }
 
+#searchBar{
+  display:flex;
+  justify-content:end;
+  padding:5px;
+}
+
+#searchBar input{
+  border:3px black solid;
+}
+
 #navbar div {
   padding: 5px;
   justify-content: end;

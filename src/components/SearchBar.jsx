@@ -4,12 +4,9 @@ const SearchBar = () =>{
 
     return (
         <div id='searchBar'>
-            Search
+        Search Puppies
             <input type="Search" />
         </div>
-
-
-
     )
 }
 

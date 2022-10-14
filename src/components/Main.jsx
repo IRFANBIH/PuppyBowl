@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {Navbar} from './';
 import {Dogs} from './';
+import SearchBar from "./SearchBar";
 
 const Main = () => {
   const [dogData, setDogData] = useState([]);
@@ -18,6 +19,7 @@ const Main = () => {
       <div id="navbar">
         <h2>The Puppy Bowl </h2>
         <Navbar />
+        <SearchBar />
       </div>
       <div id="dogdata">
         <Dogs dogData = {dogData}/>

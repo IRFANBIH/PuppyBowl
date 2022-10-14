@@ -11,6 +11,7 @@ const Dogs = (props) => {
             <div id="breeds">{dogs.breed}</div>
             <div><img src={dogs.imageUrl} id="images"></img></div>
             <div>{dogs.status}</div>
+            <button> See Details </button>
           </div>
         )
       })}

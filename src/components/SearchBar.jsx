@@ -4,6 +4,7 @@ const SearchBar = () =>{
 
     return (
         <div id='searchBar'>
+            Search
             <input type="Search" />
         </div>
 

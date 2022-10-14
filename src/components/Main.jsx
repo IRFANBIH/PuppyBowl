@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import {Navbar} from './';
 import {Dogs} from './';
 import SingleDog from './SingleDog';
-import SearchBar from "./SearchBar";
+import SearchBar from './SearchBar';
 
 const Main = () => {
   const [dogData, setDogData] = useState([]);
@@ -33,7 +33,7 @@ const Main = () => {
         <h2>The Puppy Bowl </h2>
         <Navbar />
         <SearchBar />
-      </div>{ dog.id ? <SingleDog/>:
+      </div>{ dog.id ? <SingleDog />:
         <div id="dogdata">
           <Dogs dogData = {dogData} getDog = {getDog}/>
         </div>

@@ -26,6 +26,7 @@ const Main = () => {
     } catch (err) {
       console.error(err);
     }
+    
   }
   return (
     <div id="main">
@@ -33,7 +34,7 @@ const Main = () => {
         <h2>The Puppy Bowl </h2>
         <Navbar />
         <SearchBar />
-      </div>{ dog.id ? <SingleDog />:
+      </div>{ dog.id ? <SingleDog getDog = {getDog}/>:
         <div id="dogdata">
           <Dogs dogData = {dogData} getDog = {getDog}/>
         </div>
